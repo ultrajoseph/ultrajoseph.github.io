@@ -1,0 +1,397 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Arlo
+description: 'vCard & Resume Template'
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://localhost:4000/" # the base hostname & protocol for your site, e.g. http://example.com
+
+logo:
+  logo: 'img/logo/logo.png'
+  light: 'img/logo/light.png'
+  mobile: 'img/logo/mobile.png'
+favicon:  ''
+
+vendor:
+  name:
+  url:
+
+html_directionality:  'rtl' # ltl ( default ) "rtl", ltl
+# Build settings
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+
+permalink: /blog/:title:output_ext
+paginate: 6
+paginate_path: "/blog/page:num/"
+
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+comments:
+  provider               : 'disqus' # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  disqus:
+    shortname            : 'patrick-ducor' # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+  discourse:
+    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
+  facebook:
+    # https://developers.facebook.com/docs/plugins/comments
+    appid                :
+    num_posts            : # 5 (default)
+    colorscheme          : # "light" (default), "dark"
+  utterances:
+    theme                : # "github-light" (default), "github-dark"
+    issue_term           : # "pathname" (default)
+  staticman:
+    branch               : # "master"
+    endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
+
+# Analytics
+analytics:
+  provider               : false # false (default), "google", "google-universal", "google-gtag", "custom"
+  google:
+    tracking_id          :
+    anonymize_ip         : # true, false (default)
+
+# google map key
+google_map_key           : 'AIzaSyDz2w7HUaWudHwd7AWQpCL48Qs050WOn9s' # false (default),
+
+# HTML Compression
+# - https://jch.penibelst.de/
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
+
+##
+getform_id: # to go https://getform.io/ and create an account for contact form
+
+
+##########################################################################
+################# seo ####################################################
+##########################################################################
+# SEO Related
+google_site_verification :
+bing_site_verification   :
+yandex_site_verification :
+naver_site_verification  :
+og_image                 : '/images/profile.jpg' # Open Graph/Twitter default site image
+header:
+  - image                 : '/images/profile.jpg'
+
+###########################################################################
+###########################   Home / hero  ################################
+###########################################################################
+
+first_name: Joseph
+last_name: O'Malley
+date_of_bath: #'1990-07-01 00:00'
+email: 'jjomalley94@gmail.com'
+phone: '+1 022 177 05 05'
+address: 'Kansas City, USA'
+interests: 'Outdoors, Travel, Sports, Woodworking'
+undergrad: 'U. of Nebraska-Lincoln'
+grad: 'Rockhurst University'
+degree: 'M.S.'
+cv_download_link: 'https://www.dropbox.com/s/9djqafdi87x9dmb/Resume_Feb_2021.pdf?dl=0'
+user_intro: ' As a Data Scientist, my work has allowed me to experience the full process of what it takes
+to develop useful Machine Learning models at scale - from the ideation process with the client partner, to initial
+exploratory data analysis, to interative model development, to writing production code and packaging for cloud
+deployment. My years in the industry have also given me healthcare domain expertise - increasing
+my knowledge of different standard coding systems used in the industry and understanding considerations
+for making a model clinically relevant.'
+
+
+freelance_hire: true
+professions:
+  - Data Scientist
+  - Machine Learning Engineer
+  - Client Consultant
+author_description: "<strong>Hello, I’m a Patrick</strong>, Data Scientist based on Kansas City. <br> I have rich experience in web site design &amp; building <br> and customization. Also I am good at <strong>html, css, <br> wordpress, php, jquery, bootstrap.</strong>"
+social_link:
+  - name: r-project
+    icon: "FontAwesome5Brands-r-project"
+    link: "https://rpubs.com/jjomalley94"
+  - name: linkedin
+    icon: "FontAwesome5Brands-linkedin"
+    link: "https://www.linkedin.com/in/joseph-o-malley-9970a077/"
+  - name: github
+    icon: "FontAwesome5Brands-github"
+    link: "https://github.com/ultrajoseph/JosephOMalley_code_portfolio"
+
+
+#############################################
+######### Our Services ######################
+#############################################
+our_services_title: 'Roles'
+our_services_tagline: 'What I Do'
+
+our_services:
+
+  - name: 'Machine Learning'
+    image: 'img/svg/portfolio.svg'
+    description: 'Develop high-quality ML models - using a variety of linear and tree-based models.'
+
+  - name: 'DevOps'
+    image: 'img/svg/source.svg'
+    description: 'Work with engineering to package and deploy production-level code at scale.'
+
+  - name: 'Consulting'
+    image: 'img/svg/client-1.svg'
+    description: 'Effectively communicate with client to build clinically useful products for them.'
+
+  - name: "Exploratory Data Analysis"
+    image: "img/svg/magnifying-glass-browser.svg"
+    description: "Dig into complex EMR data to better understand it. Leading to better features."
+
+  - name: 'Visualization'
+    image: 'img/svg/line-chart.svg'
+    description: 'Create visualizations to concisely understand and present findings of the ML/EDA work'
+
+  - name: 'NLP'
+    image: 'img/svg/comment.svg'
+    description: 'Used several word embedding methods - allowing value to be extracted from unstructured clinical notes.'
+
+##################################################################
+################  professional_skills ############################
+##################################################################
+professional_skill_title: 'In my <span>4 years</span> as a full-time employee, I have developed a skill set that is has allowed me to successfully build and deploy ML models at scale.'
+professional_skill_description: 'In addition to the essential skills used in model development - during my time working directly with clients, I have gained knowledge in additional tools that help support and give validity to our work.'
+
+professional_skills:
+  - name: 'Python'
+    percentage: '80'
+
+  - name: 'Apache Spark'
+    percentage: '75'
+
+  - name: 'AWS - Sagemaker, Athena, Glue'
+    percentage: '75'
+
+  - name: 'R'
+    percentage: '65'
+
+  - name: 'Tableau'
+    percentage: '60'
+
+  - name: 'SQL'
+    percentage: '80'
+##########################################
+################ portfolios ##############
+#########################################
+portfolio_title: 'Travel'
+portfolio_tagline: 'Personal Life'
+portfolio_categories:
+
+portfolios:
+  - main_image: 'img/portfolio/IMG_0872.JPG'
+    title: 'Copenhagen'
+    type:
+    category:
+    video_link:
+
+  - main_image: 'img/portfolio/IMG_4064.JPG'
+    title: 'Akumal, MX'
+    type:
+    category:
+    video_link:
+
+  - main_image: 'img/portfolio/rado1.jpg'
+    title: 'Colorado'
+    type:
+    category:
+    video_link:
+
+  - main_image: 'img/portfolio/IMG_1007.JPG'
+    title: 'Berlin'
+    type:
+    category:
+    video_link:
+
+  - main_image: 'img/portfolio/croatia1.jpg'
+    title: 'Croatia'
+    type:
+    category:
+    video_link: ''
+
+  - main_image: 'img/portfolio/costarica1.jpg'
+    title: 'Costa Rica'
+    type:
+    category:
+    video_link:
+
+  - main_image: 'img/portfolio/cambodia1.jpg'
+    title: 'Cambodia'
+    type:
+    category:
+    video_link:
+
+  - main_image: 'img/portfolio/IMG_1658.JPG'
+    title: 'Chichen Itza, MX'
+    type:
+    category:
+    video_link:
+
+  - main_image: 'img/portfolio/rado2.png'
+    title: 'Colorado '
+    type:
+    category:
+    video_link:
+
+############################################
+############## testimonial #################
+############################################
+testimonials:
+  - quote: '...He has also shown great skills while facing clients that make him a key member for external projects at Cerner Intelligence. I believe Joe has sufficient knowledge to finish any single data science project end-to-end and I highly recommend him.'
+    author_name: 'Amirhessam Tahmassebi'
+    author_image: '/img/about/amir.jpg'
+    author_profession: 'Senior Data Scientist - ExxonMobil'
+
+#############################################
+############ EXPERIENCE #####################
+#############################################
+experience_title: 'Experience'
+experience_tagline: 'Working Process'
+experience_description: ''
+
+educations:
+  - year: '2018 - 2020'
+    title: 'Rockhurst University'
+    description: 'MS in Business Intelligence & Analytics. Program focused on Statistics, Analytics, and Machine Learning - through conceptual understanding and hands-on project based work with special emphasis placed on the ability to communicate findings to management.'
+  - year: '2013 - 2017'
+    title: 'University of Nebraska-Lincoln'
+    description: 'BS in Investment Finance & Economics. Involved in Big Red Investment Club, Intramural Sports, CFA Research Challenge, and ACG Cup.'
+
+experiences:
+  - year: '2020 - Current'
+    title: 'Assc. Data Scientist - Cerner Intelligence'
+    description: 'Lead Data Scientist resource for Encompass Health partnership. Focusing on model to predict patients at risk of falling - including model packaging, deployment, and monitoring at scale.'
+  - year: '2019 - 2020'
+    title: 'Assc. Senior Data Analyst - Cerner Intelligence'
+    description: 'Researched and Developed a to predict eligibility and recommend the post-acute venue for having the best patient outcomes. Used NLP word embedding models to extract value from free text fields.'
+  - year: '2018 - 2019'
+    title: 'Data Analyst - Cerner Intelligence'
+    description: 'Adapted our scikit-learn models so they can be put into production in the Apache Spark framework - Spark SQL, MLlib.'
+  - year: '2017 - 2018'
+    title: 'Business Intelligence Analyst - Cerner'
+    description: 'Performed basic free text analysis on survey data. Developed Tableau dashboards to assist clinical consultants.'
+  - year: '2015 - 2017'
+    title: 'Intern (Data & Analytics) - Fiserv'
+    description: 'Worked with team to create a profitability model to help clients see value of several solutions offered.'
+
+#################################
+####### Pricing Tables ##########
+#################################
+pricing_title: 'PRICING'
+pricing_tagline: 'CHOOSE PLAN'
+
+pricing_table:
+  - name: "Small"
+    icon: "img/svg/icon.svg"
+    price: "300"
+    lines: >-
+        <li><p>Web Development</p></li>
+        <li><p>Creative Design</p></li>
+        <li><p>Photography</p></li>
+    url: "#"
+
+  - name: "Medium"
+    icon: "img/svg/small-rocket-ship-silhouette.svg"
+    price: "500"
+    lines: >-
+        <li><p>Web Development</p></li>
+        <li><p>Creative Design</p></li>
+        <li><p>Photography</p></li>
+    url: "#"
+
+  - name: "Professional"
+    icon: "img/svg/fire.svg"
+    price: "999"
+    lines: >-
+        <li><p>Web Development</p></li>
+        <li><p>Creative Design</p></li>
+        <li><p>Photography</p></li>
+    url: "#"
+
+########### Fun Facts ###############
+fun_facts:
+  - name: "47 Albumes Listened"
+    icon: "la la-headphones"
+  - name: "15 Awards Won"
+    icon: "la la-trophy"
+  - name: "54 Projects Completed"
+    icon: "la la-lightbulb-o"
+  - name: "10 Countries Visited"
+    icon: "la la-flag-o"
+  - name: "50+ Books Readed"
+    icon: "la la-book"
+  - name: "100 000 Lines of Code"
+    icon: "la la-code"
+  - name: "49 Satisfied Customers"
+    icon: "la la-smile-o"
+  - name: "1250 km Cycled"
+    icon: "la la-bicycle"
+
+
+
+############ Clients ##########
+clients:
+  - image: "images/clients/client_1.png"
+    name: ""
+    url: "#"
+  - image: "images/clients/client_2.png"
+    name: ""
+    url: "#"
+  - image: "images/clients/client_3.png"
+    name: ""
+    url: "#"
+  - image: "images/clients/client_4.png"
+    name: ""
+    url: "#"
+  - image: "images/clients/client_1.png"
+    name: ""
+    url: "#"
+  - image: "images/clients/client_2.png"
+    name: ""
+    url: "#"
+  - image: "images/clients/client_3.png"
+    name: ""
+    url: "#"
+  - image: "images/clients/client_4.png"
+    name: ""
+    url: "#"
