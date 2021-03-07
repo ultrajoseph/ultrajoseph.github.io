@@ -173,7 +173,7 @@ our_services:
 
   - name: 'MLOps'
     image: 'img/svg/source.svg'
-    description: 'Validate production models and set up automated monitoring'
+    description: 'Validate production models and set up automated monitoring.'
 
   - name: 'Consulting'
     image: 'img/svg/client-1.svg'
