@@ -17,8 +17,8 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Arlo
-description: 'vCard & Resume Template'
+title: J.O'Malley
+description: 'Joseph OMalley Personal Website'
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://localhost:4000/" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -313,85 +313,3 @@ experiences:
   - year: '2015 - 2017'
     title: 'Intern (Data & Analytics) - Fiserv'
     description: 'Worked with team to create a profitability model to help clients see value of several solutions offered.'
-
-#################################
-####### Pricing Tables ##########
-#################################
-pricing_title: 'PRICING'
-pricing_tagline: 'CHOOSE PLAN'
-
-pricing_table:
-  - name: "Small"
-    icon: "img/svg/icon.svg"
-    price: "300"
-    lines: >-
-        <li><p>Web Development</p></li>
-        <li><p>Creative Design</p></li>
-        <li><p>Photography</p></li>
-    url: "#"
-
-  - name: "Medium"
-    icon: "img/svg/small-rocket-ship-silhouette.svg"
-    price: "500"
-    lines: >-
-        <li><p>Web Development</p></li>
-        <li><p>Creative Design</p></li>
-        <li><p>Photography</p></li>
-    url: "#"
-
-  - name: "Professional"
-    icon: "img/svg/fire.svg"
-    price: "999"
-    lines: >-
-        <li><p>Web Development</p></li>
-        <li><p>Creative Design</p></li>
-        <li><p>Photography</p></li>
-    url: "#"
-
-########### Fun Facts ###############
-fun_facts:
-  - name: "47 Albumes Listened"
-    icon: "la la-headphones"
-  - name: "15 Awards Won"
-    icon: "la la-trophy"
-  - name: "54 Projects Completed"
-    icon: "la la-lightbulb-o"
-  - name: "10 Countries Visited"
-    icon: "la la-flag-o"
-  - name: "50+ Books Readed"
-    icon: "la la-book"
-  - name: "100 000 Lines of Code"
-    icon: "la la-code"
-  - name: "49 Satisfied Customers"
-    icon: "la la-smile-o"
-  - name: "1250 km Cycled"
-    icon: "la la-bicycle"
-
-
-
-############ Clients ##########
-clients:
-  - image: "images/clients/client_1.png"
-    name: ""
-    url: "#"
-  - image: "images/clients/client_2.png"
-    name: ""
-    url: "#"
-  - image: "images/clients/client_3.png"
-    name: ""
-    url: "#"
-  - image: "images/clients/client_4.png"
-    name: ""
-    url: "#"
-  - image: "images/clients/client_1.png"
-    name: ""
-    url: "#"
-  - image: "images/clients/client_2.png"
-    name: ""
-    url: "#"
-  - image: "images/clients/client_3.png"
-    name: ""
-    url: "#"
-  - image: "images/clients/client_4.png"
-    name: ""
-    url: "#"
