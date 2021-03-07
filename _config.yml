@@ -165,27 +165,23 @@ our_services:
 
   - name: 'Machine Learning'
     image: 'img/svg/portfolio.svg'
-    description: 'Develop high-quality ML models - using a variety of linear and tree-based models.'
+    description: 'Develop high-quality ML models - using a variety of linear and tree-based models.                                                            '
 
-  - name: 'DevOps'
+  - name: 'DevOps & MLOps'
     image: 'img/svg/source.svg'
-    description: 'Work with engineering to test, package, and deploy production-level code at scale.'
-
-  - name: 'MLOps'
-    image: 'img/svg/source.svg'
-    description: 'Validate production models and set up automated monitoring.'
+    description: 'Work with engineering to test, package, and deploy production-level code at scale. Validate production models and set up automated monitoring.'
 
   - name: 'Consulting'
     image: 'img/svg/client-1.svg'
-    description: 'Effectively communicate with client to build clinically useful products for them.'
+    description: 'Effectively communicate with client to build clinically useful products for them.                                                             '
 
   - name: "Exploratory Data Analysis"
     image: "img/svg/magnifying-glass-browser.svg"
-    description: "Dig into complex EMR data to better understand it. Leading to better features."
+    description: "Dig into complex EMR data to better understand it. Leading to better features.                       "
 
   - name: 'Visualization'
     image: 'img/svg/line-chart.svg'
-    description: 'Create visualizations to concisely understand and present findings of the ML/EDA work'
+    description: 'Create visualizations to concisely understand and present findings of the ML/EDA work.               '
 
   - name: 'NLP'
     image: 'img/svg/comment.svg'
