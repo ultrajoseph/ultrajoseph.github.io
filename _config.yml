@@ -169,7 +169,11 @@ our_services:
 
   - name: 'DevOps'
     image: 'img/svg/source.svg'
-    description: 'Work with engineering to package and deploy production-level code at scale.'
+    description: 'Work with engineering to test, package, and deploy production-level code at scale.'
+
+  - name: 'MLOps'
+    image: 'img/svg/source.svg'
+    description: 'Validate production models and set up automated monitoring'
 
   - name: 'Consulting'
     image: 'img/svg/client-1.svg'
