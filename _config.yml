@@ -124,7 +124,7 @@ date_of_bath: #'1990-07-01 00:00'
 email: 'jjomalley94@gmail.com'
 phone: '+1 022 177 05 05'
 address: 'Kansas City, USA'
-interests: 'Outdoors, Travel, Sports, Woodworking'
+interests: 'Running, Travel, Sports, Woodworking'
 undergrad: 'U. of Nebraska-Lincoln'
 grad: 'Rockhurst University'
 degree: 'M.S.'
@@ -195,13 +195,13 @@ professional_skill_description: 'In addition to the essential skills used in mod
 
 professional_skills:
   - name: 'Python'
-    percentage: '80'
+    percentage: '85'
 
   - name: 'Apache Spark'
     percentage: '75'
 
   - name: 'AWS - Sagemaker, Athena, Glue'
-    percentage: '75'
+    percentage: '85'
 
   - name: 'R'
     percentage: '65'
@@ -210,7 +210,7 @@ professional_skills:
     percentage: '60'
 
   - name: 'SQL'
-    percentage: '80'
+    percentage: '85'
 ##########################################
 ################ portfolios ##############
 #########################################
@@ -298,18 +298,21 @@ educations:
     description: 'BS in Investment Finance & Economics. Involved in Big Red Investment Club, Intramural Sports, CFA Research Challenge, and ACG Cup.'
 
 experiences:
-  - year: '2020 - Current'
-    title: 'Assc. Data Scientist - Cerner Intelligence'
+  - year: '2023 - Present'
+    title: 'Senior Data Scientist - Oracle'
+    description: 'Manager and Data Scientist. Focused on developing and deploying ML model products and building out OCI platform capabilities'
+  - year: '2022 - 2023'
+    title: 'Data Scientist - Oracle'
+    description: 'Manager and Data Scientist. Focused on developing and deploying ML model products - including MLOPs automated model monitoring.'
+  - year: '2021 - 2022'
+    title: 'Data Scientist - Cerner Intelligence'
     description: 'Lead Data Scientist resource for Encompass Health partnership. Focusing on model to predict patients at risk of falling - including model packaging, deployment, and monitoring at scale.'
   - year: '2019 - 2020'
     title: 'Assc. Senior Data Analyst - Cerner Intelligence'
-    description: 'Researched and Developed a to predict eligibility and recommend the post-acute venue for having the best patient outcomes. Used NLP word embedding models to extract value from free text fields.'
-  - year: '2018 - 2019'
-    title: 'Data Analyst - Cerner Intelligence'
-    description: 'Adapted our scikit-learn models so they can be put into production in the Apache Spark framework - Spark SQL, MLlib.'
-  - year: '2017 - 2018'
-    title: 'Business Intelligence Analyst - Cerner'
-    description: 'Performed basic free text analysis on survey data. Developed Tableau dashboards to assist clinical consultants.'
+    description: 'Researched and Developed a model to predict eligibility and recommend the post-acute venue for having the best patient outcomes. Used NLP word embedding models to extract value from free text fields.'
+  - year: '2017 - 2019'
+    title: 'BI & Data Analyst - Cerner Intelligence'
+    description: 'Performed free text analysis on survey data and developed dashbopards for HR teams. Assisted in development of ML models in Apache Spark framework - Spark SQL, MLlib.'
   - year: '2015 - 2017'
     title: 'Intern (Data & Analytics) - Fiserv'
     description: 'Worked with team to create a profitability model to help clients see value of several solutions offered.'
