@@ -124,27 +124,7 @@ cv_download_link: 'https://kcpetproject.org'
 user_intro: 'Yo, let me drop a rhyme 'bout Brandon from the 303,
 In Denver streets, where dreams and struggles mix, you see.
 A kid with slippery hands, couldn't hold them back,
-But he conquered the grip, turned the odds to fact.
-
-Recently engaged, love's melody on replay,
-Hands wet with joy, in each other's sway.
-Nebraska football, his heart's beating fast,
-In the sea of fans, he's standing steadfast.
-
-From the Mile High City to the plains of the Cornhuskers,
-Brandon's tale, like a mix of triumph and good luck, sir.
-Engagement ring gleaming - he's the quarterback of love,
-in his heart, she's beaming.
-
-Cheering for the Huskers, repping the red and white,
-In love and football, he's reaching new height.
-Slippery hands caught dreams, made 'em stick,
-From the Rocky Mountains to the plains so quick.
-
-So here's to Brandon, love on his hand,
-From Denver's streets to the Nebraska land.
-In Slim Shady's style, we tell his story,
-Engaged, slippery hands, a Nebraska glory.'
+But he conquered the grip, turned the odds to fact.'
 
 
 freelance_hire: true
@@ -158,7 +138,22 @@ social_link:
   - name: linkedin
     icon: "FontAwesome5Brands-linkedin"
     link: "https://www.linkedin.com/in/joseph-o-malley-9970a077/"
+  - name: github
+    icon: "FontAwesome5Brands-github"
+    link: "https://github.com/ultrajoseph/JosephOMalley_code_portfolio"
 
+
+#############################################
+######### Our Services ######################
+#############################################
+our_services_title: 'Roles'
+our_services_tagline: 'What I Do'
+
+our_services:
+
+  - name: 'Machine Learning'
+    image: 'img/svg/portfolio.svg'
+    description: 'Develop high-quality ML models - using a variety of linear and tree-based models.'
 
 ##################################################################
 ################  professional_skills ############################
@@ -214,3 +209,26 @@ testimonials:
     author_name: 'A-bomb'
     author_image: '/img/about/amir.jpg'
     author_profession: 'Doctor - free healthcare for life'
+
+#############################################
+############ EXPERIENCE #####################
+#############################################
+experience_title: 'Experience'
+experience_tagline: 'Working Process'
+experience_description: ''
+
+educations:
+  - year: '2018 - 2020'
+    title: 'Rockhurst University'
+    description: 'MS in Business Intelligence & Analytics. Program focused on Statistics, Analytics, and Machine Learning - through conceptual understanding and hands-on project based work with special emphasis placed on the ability to communicate findings to management.'
+  - year: '2013 - 2017'
+    title: 'University of Nebraska-Lincoln'
+    description: 'BS in Investment Finance & Economics. Involved in Big Red Investment Club, Intramural Sports, CFA Research Challenge, and ACG Cup.'
+
+experiences:
+  - year: '2023 - Present'
+    title: 'Senior Data Scientist - Oracle'
+    description: 'Manager and Data Scientist. Focused on developing and deploying ML model products and building out OCI platform capabilities'
+  - year: '2022 - 2023'
+    title: 'Data Scientist - Oracle'
+    description: 'Manager and Data Scientist. Focused on developing and deploying ML model products - including MLOPs automated model monitoring.'
