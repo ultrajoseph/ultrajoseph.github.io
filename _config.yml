@@ -189,6 +189,12 @@ portfolios:
     category:
     video_link:
 
+  - main_image: 'img/portfolio/sk_aa.jpg'
+    title: 'Cowboys'
+    type:
+    category:
+    video_link:
+
   - main_image: 'img/portfolio/sk_snap.jpg'
     title: 'At his best'
     type:
