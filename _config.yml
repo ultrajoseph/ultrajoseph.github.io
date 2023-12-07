@@ -118,18 +118,18 @@ header:
 ###########################   Home / hero  ################################
 ###########################################################################
 
-first_name: J Sean's
+first_name: Sean's
 last_name: Last Ride
 cv_download_link: 'https://venmo.com/u/seank_23'
 user_intro: '[Amidst the wild expanse, Sean, a cowboy silhouette against the rugged backdrop, channels the reflective vibe of Matthew McConaughey.]
-Sean: Ava, shes like that aged cheese from the shores of Wisconsin, ya know? Layers of depth, complexities, and a flavor that lingers, much like the stories of the range. She aint just my partner; shes the taste of exploration woven into every adventure we saddle up for.
+Sean: Ava, shes like that aged cheese from the heart of Wisconsin, ya know? Layers of depth, complexities, and a flavor that lingers, much like the stories of the range. She aint just my partner; shes the taste of exploration woven into every adventure we saddle up for.
 [Taking a moment to soak in the endless vista, he continues.]
-Sean: Avas akin to a fine cheese, Patagonias skies—each moment with her, an unwrapping of new flavors, a richness akin to the untouched wilderness.
+Sean: Avas like a wheel of fine cheese, Patagonias skies—each moment with her, an unwrapping of new flavors, a richness akin to the untouched wilderness.
 [Lost in reverie, a smile grazes Seans face.]
-Sean: Being with her is like savoring the most exquisite cheese. Every trail ridden, every whispered dream shared, its a taste that lingers, leaving me craving more of this remarkable journey.
+Sean: Being with her is like savoring the most exquisite Brie. Every trail ridden, every whispered dream shared, its a taste that lingers, leaving me craving more of this remarkable journey.
 [Gazing out at the untamed terrain, a wistful air envelops Sean.]
 Sean: Avas more than my travel partner; shes my blend of adventure and comfort, just like a fine cheese board under the stars. Shes... shes like the horizon I ride towards, a mix of adventure and familiarity etched into the map of our exploration.
-[As the camera captures the raw beauty of the landscape, Sean remains, encapsulated in the essence of Ava, a cherished memory amidst the grandeur of their adventures, much like the allure of aged cheese in the wild.]
+[As the camera captures the raw beauty of the landscape, Sean remains, encapsulated in the essence of Ava, a cherished memory amidst the grandeur]
 '
 
 
@@ -166,13 +166,7 @@ professional_skills:
   - name: 'BAD BAD MAN 1st round draft pick'
     percentage: '100'
 
-  - name: 'Canada Party Effort'
-    percentage: '100'
-
-  - name: 'Canada Party Results'
-    percentage: '4'
-
-  - name: 'Turning into Giannis in a church basketball league'
+  - name: 'Turning into Giannis in a church league'
     percentage: '34'
 
 ##########################################
@@ -201,7 +195,7 @@ portfolios:
     category:
     video_link:
 
-  - main_image: 'img/portfolio/sk_sodexo.JPG'
+  - main_image: 'img/portfolio/sk_sodexo.jpg'
     title: 'Cashing checks'
     type:
     category:
@@ -213,41 +207,6 @@ portfolios:
 ############################################
 testimonials:
   - quote: 'Have never met a guy with lower self preservation. From a tent camp in Lousiville Ky to a hardwood floor in Madison... he may have been homeless in a past life'
-    author_name: 'Amirhessam Tahmassebi'
-    author_image: '/img/about/amir.jpg'
+    author_name: 'J-Rarri'
+    author_image: '/img/about/jo_test.jpg'
     author_profession: 'Stay At Home Dad'
-
-#############################################
-############ EXPERIENCE #####################
-#############################################
-experience_title: 'Experience'
-experience_tagline: 'Working Process'
-experience_description: ''
-
-educations:
-  - year: '2018 - 2020'
-    title: 'Rockhurst University'
-    description: 'MS in Business Intelligence & Analytics. Program focused on Statistics, Analytics, and Machine Learning - through conceptual understanding and hands-on project based work with special emphasis placed on the ability to communicate findings to management.'
-  - year: '2013 - 2017'
-    title: 'University of Nebraska-Lincoln'
-    description: 'BS in Investment Finance & Economics. Involved in Big Red Investment Club, Intramural Sports, CFA Research Challenge, and ACG Cup.'
-
-experiences:
-  - year: '2023 - Present'
-    title: 'Senior Data Scientist - Oracle'
-    description: 'Manager and Data Scientist. Focused on developing and deploying ML model products and building out OCI platform capabilities'
-  - year: '2022 - 2023'
-    title: 'Data Scientist - Oracle'
-    description: 'Manager and Data Scientist. Focused on developing and deploying ML model products - including MLOPs automated model monitoring.'
-  - year: '2021 - 2022'
-    title: 'Data Scientist - Cerner Intelligence'
-    description: 'Lead Data Scientist resource for Encompass Health partnership. Focusing on model to predict patients at risk of falling - including model packaging, deployment, and monitoring at scale.'
-  - year: '2019 - 2020'
-    title: 'Assc. Senior Data Analyst - Cerner Intelligence'
-    description: 'Researched and Developed a model to predict eligibility and recommend the post-acute venue for having the best patient outcomes. Used NLP word embedding models to extract value from free text fields.'
-  - year: '2017 - 2019'
-    title: 'BI & Data Analyst - Cerner Intelligence'
-    description: 'Performed free text analysis on survey data and developed dashbopards for HR teams. Assisted in development of ML models in Apache Spark framework - Spark SQL, MLlib.'
-  - year: '2015 - 2017'
-    title: 'Intern (Data & Analytics) - Fiserv'
-    description: 'Worked with team to create a profitability model to help clients see value of several solutions offered.'
