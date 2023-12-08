@@ -163,8 +163,14 @@ professional_skills:
   - name: 'Paying for Middle Aged Ladies Dinner in Europe'
     percentage: '90'
 
+  - name: 'Septum strength'
+    percentage: '3'
+
   - name: 'BAD BAD MAN 1st round draft pick'
     percentage: '100'
+
+  - name: 'Respecting Canada'
+    percentage: '99'
 
   - name: 'Turning into Giannis in a church league'
     percentage: '34'
@@ -212,7 +218,15 @@ portfolios:
 ############## testimonial #################
 ############################################
 testimonials:
+  - quote: 'Im basically Scuba certified (some people forget), but I would NEVER go with Sean. Sharks can smell a drop of blood in a million gallons - his nose could have Lake Maloney looking like the set of a Jaws movie.'
+    author_name: 'Hank'
+    author_image: '/img/about/hen.jpg'
+    author_profession: 'Kicked out of Longhorn Bar'
   - quote: 'Have never met a guy with lower self preservation. From a tent camp in Lousiville Ky to a hardwood floor in Madison... he may have been homeless in a past life'
     author_name: 'J-Rarri'
     author_image: '/img/about/jo_test.jpg'
     author_profession: 'Stay At Home Dad'
+  - quote: 'He got that crazy look in his eye - he tried to end my life with that high heat... havent challenged him since'
+    author_name: 'Slynes'
+    author_image: '/img/about/slynes.jpg'
+    author_profession: 'Slugger'
